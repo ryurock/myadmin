@@ -10,13 +10,16 @@ gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 gem 'bootstrap-sass'
+gem "twitter-bootstrap-rails"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails'
 
-gem "angular-gem"
+gem 'angular-gem'
+
+gem 'jquery-rails'
 
 gem 'rspec-core'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -25,6 +28,8 @@ gem 'devise'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'simple_form'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
